@@ -8,7 +8,5 @@ secret_key = "4J/5Sit7d1yD/KOvffNige54Xfwo0qwIrb8eQAJ7"
 resource "aws_instance" "ansiblemaster" {
   ami           = "ami-053b0d53c279acc90"
   instance_type = "t2.micro"
-   tags = {
-    name = "ansiblemaster"
-}
+  
 }
